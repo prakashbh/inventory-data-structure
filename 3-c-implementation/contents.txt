@@ -1,0 +1,6 @@
+Contents
+========
+
+ - common-files: files common to both implementations
+ - using-library: using the inventory data structre as library and header file
+ - using-source: using the inventory data sytructure as source code

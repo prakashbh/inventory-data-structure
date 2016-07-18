@@ -1,0 +1,10 @@
+NULL cereals meat junkfood milk 
+name sprouts beef noodles  butter 
+proteins 40 60 NULL 20 
+carbohydrates 28 71 20 32 
+fat 20 40 40 30 
+cholestrol 10 80 70 25 
+glucose NULL 30 NULL 10 
+sucrose NULL NULL NULL NULL 
+vitamin 30 40 10 20 
+iron 60 60 20 40 

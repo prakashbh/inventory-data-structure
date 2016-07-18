@@ -1,0 +1,10 @@
+NULL ram kiran amit amar
+c X X X X 
+java NULL X NULL X 
+C++ X X NULL X 
+Database NULL NULL X NULL 
+.NET NULL NULL X NULL 
+J2EE X X NULL NULL 
+OS X X X X 
+DS X NULL X X 
+Networking X X X NULL

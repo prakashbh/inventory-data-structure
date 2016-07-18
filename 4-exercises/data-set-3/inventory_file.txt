@@ -1,0 +1,12 @@
+NULL tvs hero honda bajaj 
+name victor pleasure hornet pulsar 
+type 4-stroke moped 4-stroke 4-stroke 
+CC 125 110 135 200 
+Bhp 11.2 10 13 20.5 
+WheelSize 17 13 17 17 
+gear 4 NULL 5 5 
+ABS NULL NULL NULL X 
+battery 7lb 5lb 9lb 9lb 
+fuel petrol petrol petrol petrol 
+topspeed 100 80 130 170 
+tank 10 5 12 13 

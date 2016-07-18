@@ -33,11 +33,11 @@ Directory Structure
 |   |   |-- key_count.txt
 |   |   `-- property_count.txt
 |   |-- data-set-2
-|   |   |-- food.txt
+|   |   |-- inventory_file.txt
 |   |   |-- key_count.txt
 |   |   `-- property_count.txt
 |   |-- data-set-3
-|   |   |-- bike.txt
+|   |   |-- inventory_file.txt
 |   |   |-- key_count.txt
 |   |   `-- property_count.txt
 |   `-- exercise-question.pdf

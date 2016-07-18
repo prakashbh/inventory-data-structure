@@ -1,0 +1,5 @@
+Contents
+========
+
+ - manual: read this first before you start with anything
+ - how-to-start: documentation on how to use the code
