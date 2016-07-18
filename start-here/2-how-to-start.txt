@@ -1,0 +1,6 @@
+Getting Started
+---------------
+
+1. Understanding the Data Structure
+
+
