@@ -1,0 +1,31 @@
+How To Start
+============
+
+The directories are numbered accordingly as they have to be 
+accessed. For the sake of completion following is the order:
+
+
+1-start-here
+------------
+The directory which you are already accessing, which gives 
+you these instructions and the tree layout. 
+
+
+2-docs
+------
+Read the manual and understand the data structure. Also read 
+about how to use the code in another pdf document.
+
+
+3-c-implementation
+------------------
+Use the implementation of your choice. The preferred option 
+is to first go with source code and once comfortable, switch 
+to the library version.
+
+
+4-exercises
+-----------
+This presents you with some sample data sets that you could 
+work on and few exercise questions. The questions range from 
+level simple to level complex.

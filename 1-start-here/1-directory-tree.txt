@@ -1,0 +1,45 @@
+Directory Structure
+===================
+
+.
+|-- 1-start-here
+|   |-- 1-directory-tree.txt
+|   `-- 2-how-to-start.txt
+|-- 2-docs
+|   |-- contents.txt
+|   |-- how-to-start.pdf
+|   `-- manual.pdf
+|-- 3-c-implementation
+|   |-- common-files
+|   |   |-- inventory_file.txt
+|   |   |-- key_count.txt
+|   |   `-- property_count.txt
+|   |-- contents.txt
+|   |-- using-library
+|   |   |-- inventory-header
+|   |   |   `-- inventory.h
+|   |   |-- libIncludeInven.a
+|   |   `-- main.c
+|   `-- using-source
+|       |-- inventory.c
+|       |-- inventory.h
+|       |-- locals.h
+|       |-- main.c
+|       `-- settings.h
+|-- 4-exercises
+|   |-- contents.txt
+|   |-- data-set-1
+|   |   |-- inventory_file.txt
+|   |   |-- key_count.txt
+|   |   `-- property_count.txt
+|   |-- data-set-2
+|   |   |-- food.txt
+|   |   |-- key_count.txt
+|   |   `-- property_count.txt
+|   |-- data-set-3
+|   |   |-- bike.txt
+|   |   |-- key_count.txt
+|   |   `-- property_count.txt
+|   `-- exercise-question.pdf
+`-- README.md
+
