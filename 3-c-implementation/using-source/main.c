@@ -44,6 +44,7 @@ int main()
 
 
             case 1: print();
+                    // a function print_formatted() can be called to print formatted table
                     break;
 
             case 2: string_array = get_keys();
