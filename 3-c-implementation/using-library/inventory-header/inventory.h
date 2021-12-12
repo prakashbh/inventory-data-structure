@@ -45,6 +45,7 @@ int * search_key(char array[]);
 int * search_property(char property[]);
 void search_any(char c_array[], int i_array[100][2]);
 void print();
+void print_formatted();
 void inventory_memory_deallocation();
 int dump();
 
