@@ -630,6 +630,53 @@ void print()
     }
 }
 
+// Function:     print_formatted
+// Description:  displays all the entries in inventory table
+//               formatting will look cleaner even if the table
+//               size is large
+// Input param:  NULL
+// Return Type:  NULL
+void print_formatted()
+{
+    // Local variables indexing the key and properties and maximum sizes
+    int kindex = 0;
+    int pindex = 0;
+    int max = 0;
+    int temp_len = 0;
+
+    // Creates a table to store the maximum size of a string in a column
+    int *max_size = (int *)malloc(sizeof(int) * key_count);
+    if (max_size == NULL)
+    {
+        write_log("print_formatted", "MEMORY_ALLOCATION_ERROR", "No memory for max_size array");
+        return;
+    }
+
+    // Stores the maximum size of a string in a column among other values
+    for (kindex = 0; kindex <= key_count; kindex++)
+    {
+        for (pindex = 0; pindex <= property_count; pindex++)
+        {
+            temp_len = strlen(inventory[pindex][kindex]);
+            if (max < temp_len)
+                max = temp_len;
+        }
+        // Spacing to separate each column
+        max_size[kindex] = (max + 4);
+        max = 0;
+    }
+
+    // Run the loop and print the inventory table details with formatting
+    for (pindex = 0; pindex <= property_count; pindex++)
+    {
+        for (kindex = 0; kindex <= key_count; kindex++)
+        {
+            // Adds right padding to the values appropriately
+            printf("%-*s", max_size[kindex], inventory[pindex][kindex]);
+        }
+        printf("\n");
+    }
+}
 
 //Function:     inventory_memory_deallocation
 //Description:  free the allocated memory for inventory table
